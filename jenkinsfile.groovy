@@ -8,7 +8,7 @@ pipeline {
        stages {
             stage('SCM checkout') {
                   steps {
-                        git url: 'give your github repository url'
+                        git url: 'https://github.com/jesudian/realtime-example-cicd.git'
                         }
              }
              
